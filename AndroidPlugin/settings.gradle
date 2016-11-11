@@ -1,1 +1,1 @@
-include ':app', ':interfaceimpl', ':pluginjar'
+include ':app', ':pluginsimpl'

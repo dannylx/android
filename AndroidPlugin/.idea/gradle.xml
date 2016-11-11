@@ -9,8 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/interfaceimpl" />
-            <option value="$PROJECT_DIR$/pluginjar" />
+            <option value="$PROJECT_DIR$/pluginsimpl" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

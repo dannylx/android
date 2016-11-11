@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">AndroidPlugin</string>
     <string name="btn_LoadJar">LoadJar</string>
+    <string name="btn_HookActivity">HookActivity</string>
     <string name="btn_LoadAPK">LoadAPK</string>
 </resources>

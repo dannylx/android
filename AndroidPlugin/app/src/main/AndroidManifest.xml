@@ -15,6 +15,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".hooks.DemoActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".apkplugin.ProxyActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.danny.android.pluginsimpl.dynamicload.DLProxyActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.danny.android.pluginsimpl.dynamicload.proxy.activity.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
